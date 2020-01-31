@@ -1,0 +1,12 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+markdown = {version = "*",index = "https://pypi.tuna.tsinghua.edu.cn/simple"}
+
+[requires]
+python_version = "3.5"
