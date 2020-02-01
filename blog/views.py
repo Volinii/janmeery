@@ -25,6 +25,10 @@ def index(request):
     return render(request, 'blog/index.html', context={'post_list': post_list})
 
 
+def about(request):
+    return render(request, 'blog/about.html')
+
+
 def detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
     # 阅读量 +1
