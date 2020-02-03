@@ -9,6 +9,7 @@ verify_ssl = true
 markdown = {index = "https://pypi.tuna.tsinghua.edu.cn/simple",version = "*"}
 django = {index = "https://pypi.tuna.tsinghua.edu.cn/simple",version = "*"}
 gunicorn = {index = "https://pypi.tuna.tsinghua.edu.cn/simple",version = "*"}
+django-pure-pagination = {index = "https://pypi.tuna.tsinghua.edu.cn/simple",version = "*"}
 
 [requires]
 python_version = "3.6"
